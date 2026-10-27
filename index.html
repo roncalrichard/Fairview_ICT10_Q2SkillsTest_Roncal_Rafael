@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script><title> NONMETAL CHECKER</title>
+<style>
+        body {
+    background: #0f172a;
+    font-family: system-ui, sans-serif;
+    color: #f8fafc;
+}
+
+.style-card {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+.card-title {
+    color: #38bdf8;
+}
+
+.form-label {
+    color: #94a3b8 !important;
+    font-size: 0.85rem;
+}
+
+.form-control {
+    background-color: #0f172a !important;
+    border: 1px solid #334155 !important;
+    color: #ffffff !important;
+}
+
+.form-control:focus {
+    border-color: #38bdf8 !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background: #c72929 !important;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background: #8383b3 !important;
+}
+
+#result-area {
+    background: #0f172a !important;
+    border: 1px solid #334155 !important;
+    color: #94a3b8;
+}
+
+    </style>
+</head>
+<body class="bg-light d-flex align-items-center justify-content-center vh-100">
+<h1>GOOD NONMETAL CHECKER</h1>
+    <div class="style-card p-4 rounded-lg shadow-md">
+    <div id="output1"></div>
+    <script type="py" src="main.py"></script>
+    <script>
+    <button>check</button>
+            
+    </script>
+ =<div class="input_symbol">
+    <label for="input_symbol" class="form-label fw-semibold">symbol</label>
+    <input type="text" id="element" class="form-control form-control-lg" placeholder="H">
+</div>
+
+<button type="button" id="check-btn" class="btn btn-primary btn-lg w-100 fw-bold mb-4 py-2" py-click="nonmetal_checker">
+    check nonmetal
+</button>
+
+<div id="result-area" class="p-3 rounded fw-medium fs-5 bg-white border border-light-subtle">
+    <div class="mb-1"><strong>Element Symbol:</strong> <span id="out_symbol">-</span></div>
+    <div class="mb-1"><strong>Element Name:</strong> <span id="out_name">-</span></div>
+    <div class="mb-1"><strong>Atomic Number:</strong> <span id="out_num">-</span></div>
+    <div class="mb-0"><strong>Atomic Mass:</strong> <span id="out_mass">-</span></div>
+    <div id="error_message" class="text-danger"></div>
+</div>
+
+<h2>ict10q2skillstest
+
+<body>
+    
+
+</body>
+</html>
